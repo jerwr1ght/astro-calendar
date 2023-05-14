@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Asking_dialog</class>
+ <widget class="QDialog" name="Asking_dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>401</width>
+    <height>151</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>401</width>
+    <height>151</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>401</width>
+    <height>151</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Підтвердження</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>icon.ico</normaloff>icon.ico</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QDialog{
+background-color: #2e2e38;
+}</string>
+  </property>
+  <property name="locale">
+   <locale language="Ukrainian" country="Ukraine"/>
+  </property>
+  <widget class="QWidget" name="horizontalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>80</y>
+     <width>379</width>
+     <height>47</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="asking_layout">
+    <property name="spacing">
+     <number>10</number>
+    </property>
+    <item>
+     <widget class="QLabel" name="label_2">
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Century Gothic&quot;;
+color: white;
+border: none;</string>
+      </property>
+      <property name="text">
+       <string>Остання новина</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="yesb">
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	font: 12pt &quot;Century Gothic&quot;;
+    color: #f2b824;
+    background-color: #1d1c21;
+    border: none;
+}
+QPushButton:hover{
+ color: #f2c44e;
+ background-color: #3a3c42;
+}
+QPushButton:pressed {
+color: #eb7b13;
+}</string>
+      </property>
+      <property name="text">
+       <string>Так</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="nob">
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	font: 12pt &quot;Century Gothic&quot;;
+    color: #f2b824;
+    background-color: #1d1c21;
+    border: none;
+}
+QPushButton:hover{
+ color: #f2c44e;
+ background-color: #3a3c42;
+}
+QPushButton:pressed {
+color: #eb7b13;
+}</string>
+      </property>
+      <property name="text">
+       <string>Ні</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="asking_label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>30</y>
+     <width>401</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;Century Gothic&quot;;
+color: white;
+border: none;</string>
+   </property>
+   <property name="text">
+    <string>Ви точно хочете додати новую інформацію?</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
