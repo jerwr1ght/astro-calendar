@@ -1,2 +1,2 @@
-# astro-calendar
-Astronomical calendar (liceum course work)
+# Astronomical calendar
+It's a liceum course project that can help astronomers to track astronomical events using database file
